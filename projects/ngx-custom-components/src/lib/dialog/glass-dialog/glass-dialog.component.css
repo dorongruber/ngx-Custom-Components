@@ -1,0 +1,19 @@
+.glass-dialog-container {
+    position: relative;
+    background: inherit;
+    box-shadow: 0px 2px 133px 24px rgba(0,0,0,.75);
+    z-index: -1;
+}
+
+.glass-dialog-container::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 15px;
+    filter: blur(5px);
+    background: inherit;
+    z-index: -1;
+  }
