@@ -12,6 +12,7 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
+      "ngx-custom-components/*": ["projects/ngx-custom-components/*"],
       "ngx-custom-components": [
         "dist/ngx-custom-components"
       ]
