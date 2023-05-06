@@ -1,3 +1,7 @@
-<div class="glass-dialog-container">
-    <ng-content></ng-content>
+<div class="glass-dialog-content-container"
+[style.border-radius]="dialogBorderRadius" [style.position]="dialogPosition" [style.width]="dialogWidth"
+[style.border]="dialogBorder" [style.padding]="dialogPadding" [style.backdrop-filter]="dialogBackgroundFilter">
+
+    <ng-content select="[dialog]"></ng-content>
+
 </div>
